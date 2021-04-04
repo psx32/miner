@@ -1,3 +1,4 @@
+#include "account/hAccount.h"
 #include "mining/miner_menu.h"
 #include "mining/miner.h"
 #include <stdio.h>
@@ -22,6 +23,9 @@ int main()
 			minerMenu();
 		break;
 		case 2:
+			holderAccount();
+		break;
+		case 3:
 			exit(-1);
 		break;
 	}
